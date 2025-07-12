@@ -1,0 +1,77 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Instagram Login</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: 'Roboto', sans-serif;
+    }
+    body {
+      background-color: #fafafa;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .login-box {
+      width: 350px;
+      padding: 40px;
+      background: white;
+      border: 1px solid #dbdbdb;
+    }
+    .login-box img {
+      display: block;
+      margin: 0 auto 20px;
+      width: 175px;
+    }
+    input[type="text"], input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin: 5px 0;
+      background: #fafafa;
+      border: 1px solid #dbdbdb;
+    }
+    button {
+      width: 100%;
+      background-color: #3897f0;
+      color: white;
+      border: none;
+      padding: 10px;
+      margin-top: 10px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .divider {
+      text-align: center;
+      margin: 20px 0;
+      color: #999;
+    }
+    .signup-link {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <div class="login-box">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram Logo">
+      <input type="text" placeholder="Phone number, username, or email">
+      <input type="password" placeholder="Password">
+      <button>Log In</button>
+      <div class="divider">OR</div>
+      <button style="background: transparent; color: #385185;">Log in with Facebook</button>
+    </div>
+    <div class="signup-link">
+      Don't have an account? <a href="#">Sign up</a>
+    </div>
+  </div>
+</body>
+</html>
